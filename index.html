@@ -10,21 +10,21 @@
 <body>
 
   <div class="main">
-    <div class="container">
+    <div id="header">
 
       <div id="navbar">
-        <img id="logo"
+        <img id="header-image"
           src="	https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
           alt="logo">
 
         <div class="nav-items">
-          <a class="nav-item" href="#">Features</a>
-          <a class="nav-item" href="#">How It Works</a>
-          <a class="nav-item" href="#">Pricing</a>
+          <a class="nav-link" href="#features">Features</a>
+          <a class="nav-link" href="#video-clip">How It Works</a>
+          <a class="nav-link" href="#pricing">Pricing</a>
         </div>
       </div>
 
-      <div id="header">
+      <div id="title">
         <div class="title"> Handcrafted, home-made masterpieces </div>
         <div class="input">
           <input class="input-field" type="text"
@@ -33,7 +33,7 @@
         <div class="btn">
           <a class="button" href="#">GET STARTED</a>
         </div>
-        <div class="about">
+        <div id="features" class="about">
           <div class="about__wrapper">
             <svg class="about__img" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-alarm" viewBox="0 0 16 16">
               <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z"/>
@@ -80,7 +80,7 @@ Quality Assurance</h2>
           <iframe id="video" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
         </div>
 
-        <div class="cards-container">
+        <div class="cards-container" id="pricing">
           <div class="card-item">
             <div class="card-title">TENOR TROMBONE</div>
             <div class="card-price">600</div>
@@ -112,10 +112,10 @@ Quality Assurance</h2>
         </div>
         <footer class="footer">
             <ul class="list__items">
-              <li class="list__item"><a href="">Privacy
+              <li class="list__item"><a href="#">Privacy
               </a></li>
-              <li class="list__item"><a href="">Terms</a></li>
-              <li class="list__item"><a href="">Contact</a></li>
+              <li class="list__item"><a href="#">Terms</a></li>
+              <li class="list__item"><a href="#">Contact</a></li>
 
             </ul>
             <p>Copyright 2016, Original Trombones</p>

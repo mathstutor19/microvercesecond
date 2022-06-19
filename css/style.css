@@ -112,3 +112,17 @@ text-align: left;
     left: 108px;
     
 }
+.list__items{
+    list-style: none;
+}
+.list__item{
+    display: inline-block;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+}
+.footer{
+    text-align: right;
+    max-width: 1000px;
+}

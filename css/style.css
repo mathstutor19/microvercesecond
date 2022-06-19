@@ -71,3 +71,44 @@ text-align: left;
     height: 40px;
     margin-right: 100px;
 }
+#video-clip {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+
+} 
+#video {
+    width: 600px;
+    height: 320px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.card-item {
+    margin-right: 20px;
+    border: 1px rgb(185, 179, 179) solid;
+    border-radius: 2px;
+    height: 310px;
+    width: 310px;
+    position: relative;
+    
+}
+.card-title {
+    background-color: rgb(214, 210, 210);
+    font-size: 20px;
+    font-weight: 700;
+    align-self: center;
+}
+.card-price {
+    font-size: 20px;
+    font-weight: 700;
+}
+.card-btn {
+    position: absolute;
+    bottom: 10px;
+    left: 108px;
+    
+}
